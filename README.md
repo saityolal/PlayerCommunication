@@ -37,7 +37,7 @@ This approach allows the server and client to run on separate JVMs.
 ## Project Structure
 ```
 The project consists of the following files and directories:
-project-root/
+PlayerCommunication/
 ├── pom.xml                     
 ├── src/                       
 │   ├── main/
