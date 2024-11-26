@@ -32,11 +32,11 @@ public class PlayerCommunication {
             System.out.println(player1.getName() + ", Do you want to start conversation? (type \"yes\" or \"no\")");
             response = scan.nextLine();
 
-            if (response.equals("yes")) {
+            if (response.equalsIgnoreCase("yes")) {
                 System.out.println("To start the conversation, " + player1.getName() + " please enter a message:");
                 player1.sendMessage(scan.nextLine());
                 break;
-            } else if (response.equals("no")) {
+            } else if (response.equalsIgnoreCase("no")) {
                 System.out.println("To start the conversation, " + player2.getName() + " please enter a message:");
                 player2.sendMessage(scan.nextLine());
                 break;

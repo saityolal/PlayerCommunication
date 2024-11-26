@@ -1,4 +1,4 @@
-com/playerCommunication/MultiJVM/PlayerServer.class
-com/playerCommunication/SingleJVM/PlayerCommunication.class
-com/playerCommunication/Player.class
-com/playerCommunication/MultiJVM/PlayerClient.class
+com\playerCommunication\SingleJVM\PlayerCommunication.class
+com\playerCommunication\MultiJVM\PlayerClient.class
+com\playerCommunication\MultiJVM\PlayerServer.class
+com\playerCommunication\Player.class
